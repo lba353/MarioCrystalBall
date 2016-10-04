@@ -1,9 +1,15 @@
 package com.example.student.mariocrystalball;
 
+import android.util.Log;
+
+import java.util.Random;
+
 public class Predictions {
 
     private static Predictions predictions;
     private String[] answers;
+    private Random random = new Random();
+    private int rnd;
 
     private Predictions() {
         answers = new String[] {
@@ -28,7 +34,8 @@ public class Predictions {
     }
 
     public String getPrediction() {
-        return answers[5];
+        rnd = random.nextInt(answers.length);
+        return answers[rnd];
     }
 
 }
