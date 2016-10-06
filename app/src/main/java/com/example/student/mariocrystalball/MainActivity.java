@@ -2,6 +2,7 @@ package com.example.student.mariocrystalball;
 
 import android.content.Context;
 import android.content.pm.ActivityInfo;
+import android.graphics.Typeface;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
@@ -73,6 +74,9 @@ public class MainActivity extends AppCompatActivity {
         answerText = (TextView) findViewById(R.id.answerText);
 
         answerText.setText(Predictions.get().getPrediction());
+
+        //Typeface font = Typeface.createFromAsset(getAssets(), "customFont.ttf");
+        //answerText.setTypeface(font);
     }
 
     @Override
