@@ -1,3 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="C:\Users\Student\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\Users\Student\AndroidStudioProjects\MarioCrystalBall\MarioCrystalBall\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_26191d75ac509f3c074f5b53e43c92a593817d0e\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Student\AndroidStudioProjects\MarioCrystalBall\MarioCrystalBall\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\Users\Student\AndroidStudioProjects\MarioCrystalBall\MarioCrystalBall\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_62eaabebf97e2dac56ac853f22fd1106a2ded806\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Student\AndroidStudioProjects\MarioCrystalBall\MarioCrystalBall\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\Users\Student\AndroidStudioProjects\MarioCrystalBall\MarioCrystalBall\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_4bde3acf180295b70519c8b349aa82e0bc027ab5\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Student\AndroidStudioProjects\MarioCrystalBall\MarioCrystalBall\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\Users\Student\AndroidStudioProjects\MarioCrystalBall\MarioCrystalBall\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_76eb9176ecd7ddb2e98895776ee5536334387837\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Student\AndroidStudioProjects\MarioCrystalBall\MarioCrystalBall\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\Users\Student\AndroidStudioProjects\MarioCrystalBall\MarioCrystalBall\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_aa0fd82b94b3db0a57d3e9d5e17723187e5d9f01\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Student\AndroidStudioProjects\MarioCrystalBall\MarioCrystalBall\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="4feb7a92f8d38d9decd811d5d86f3066e6a3fc33">
+        <dex dex="C:\Users\Student\AndroidStudioProjects\MarioCrystalBall\MarioCrystalBall\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_79f1b297db762e73359047a8658433b7d91129e7\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Student\AndroidStudioProjects\MarioCrystalBall\MarioCrystalBall\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\Users\Student\AndroidStudioProjects\MarioCrystalBall\MarioCrystalBall\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_740a6774cf41a3593a6f8e52a7796f7abfd0954a\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Student\AndroidStudioProjects\MarioCrystalBall\MarioCrystalBall\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="e4e7996831fded16fe18cf87e2c75b39bcfa282c">
+        <dex dex="C:\Users\Student\AndroidStudioProjects\MarioCrystalBall\MarioCrystalBall\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_4d9b5b4867e7ccac06767c94e8363b66894236e8\classes.dex" />
+    </item>
+
+</items>

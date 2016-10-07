@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
             float delta = currentAcceleration - previousAcceleration;
             acceleration = acceleration * 0.9f + delta;
 
-            if(acceleration > 30) {
+            if(acceleration > 20) {
                 MediaPlayer mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.sound);
                 mediaPlayer.start();
 
@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
 
         answerText.setText(Predictions.get().getPrediction());
 
-        //Typeface font = Typeface.createFromAsset(getAssets(), "customFont.ttf");
+        //Typeface font = Typeface.createFromAsset(getAssets(), "assets/fonts/customFont.ttf");
         //answerText.setTypeface(font);
     }
 

@@ -25,6 +25,15 @@
         android:id="@+id/answerText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="#FFFFFF" />
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:textSize="30sp"
+        android:shadowColor="#33691E"
+        android:shadowRadius="5"
+        android:shadowDx="10"
+        android:shadowDy="10" />
 
 </RelativeLayout>
