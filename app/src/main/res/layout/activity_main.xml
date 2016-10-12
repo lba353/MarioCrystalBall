@@ -15,9 +15,10 @@
     />
 
     <ImageView
+        android:id="@+id/spin_block"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/crystalball"
+        android:src="@drawable/crystal0"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"/>
 

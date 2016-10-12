@@ -3,6 +3,8 @@ package com.example.student.mariocrystalball;
 import android.content.Context;
 import android.content.pm.ActivityInfo;
 import android.graphics.Typeface;
+import android.graphics.drawable.AnimationDrawable;
+import android.graphics.drawable.Drawable;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
@@ -10,6 +12,7 @@ import android.hardware.SensorManager;
 import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -38,14 +41,17 @@ public class MainActivity extends AppCompatActivity {
             float delta = currentAcceleration - previousAcceleration;
             acceleration = acceleration * 0.9f + delta;
 
+            //When it is shaken...
             if(acceleration > 20) {
+                //Plays music
                 MediaPlayer mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.sound);
                 mediaPlayer.start();
 
+                //Displays a random answer
                 String ans = Predictions.get().getPrediction();
-
                 answerText.setText(ans);
 
+                //Says that the device was shaken
                 Toast toast = Toast.makeText(getApplication(), "Device has shaken", Toast.LENGTH_SHORT);
                 toast.show();
             }
@@ -64,6 +70,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //Initializes variables used to measure whenever the device has been shaken
         sensorManager = (SensorManager)getSystemService(Context.SENSOR_SERVICE);
         accelerometer = sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
 
@@ -71,9 +78,19 @@ public class MainActivity extends AppCompatActivity {
         currentAcceleration = SensorManager.GRAVITY_EARTH;
         previousAcceleration = SensorManager.GRAVITY_EARTH;
 
+        //Used to make the answer given from the getPrediction function in the Prediction class show on screen.
         answerText = (TextView) findViewById(R.id.answerText);
 
         answerText.setText(Predictions.get().getPrediction());
+
+        //Used to create the spinning image when the app loads.
+        ImageView img = (ImageView) findViewById(R.id.spin_block);
+        img.setBackgroundResource(R.drawable.crystal_anim);
+
+        AnimationDrawable imgAnimation = (AnimationDrawable) img.getBackground();
+
+        imgAnimation.start();
+
 
         //Typeface font = Typeface.createFromAsset(getAssets(), "assets/fonts/customFont.ttf");
         //answerText.setTypeface(font);

@@ -40,7 +40,7 @@
         jar="C:\Users\Student\AndroidStudioProjects\MarioCrystalBall\MarioCrystalBall\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         revision="24.0.2"
-        sha1="4feb7a92f8d38d9decd811d5d86f3066e6a3fc33">
+        sha1="5e310a3689d856441330eb1d8595c59e19869640">
         <dex dex="C:\Users\Student\AndroidStudioProjects\MarioCrystalBall\MarioCrystalBall\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_79f1b297db762e73359047a8658433b7d91129e7\classes.dex" />
     </item>
     <item
@@ -54,7 +54,7 @@
         jar="C:\Users\Student\AndroidStudioProjects\MarioCrystalBall\MarioCrystalBall\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         revision="24.0.2"
-        sha1="e4e7996831fded16fe18cf87e2c75b39bcfa282c">
+        sha1="ff2fc193771a214c185d60f56a8752154c70226e">
         <dex dex="C:\Users\Student\AndroidStudioProjects\MarioCrystalBall\MarioCrystalBall\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_4d9b5b4867e7ccac06767c94e8363b66894236e8\classes.dex" />
     </item>
 

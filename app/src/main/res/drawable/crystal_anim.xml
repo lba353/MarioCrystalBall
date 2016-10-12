@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <animation-list android:id="@+id/selected" android:oneshot="false">
+        <item android:drawable="@drawable/crystal0" android:duration="50" />
+        <item android:drawable="@drawable/crystal1" android:duration="50" />
+        <item android:drawable="@drawable/crystal2" android:duration="50" />
+        <item android:drawable="@drawable/crystal3" android:duration="50" />
+        <item android:drawable="@drawable/crystal4" android:duration="50" />
+        <item android:drawable="@drawable/crystal5" android:duration="50" />
+    </animation-list>
+</set>
