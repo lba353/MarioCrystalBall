@@ -15,6 +15,8 @@ import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -26,6 +28,10 @@ public class MainActivity extends AppCompatActivity {
     private float acceleration;
     private float currentAcceleration;
     private float previousAcceleration;
+
+    private ImageView img;
+
+    private AnimationDrawable imgAnim;
 
     private final SensorEventListener sensorListener = new SensorEventListener() {
 
@@ -81,19 +87,19 @@ public class MainActivity extends AppCompatActivity {
         //Used to make the answer given from the getPrediction function in the Prediction class show on screen.
         answerText = (TextView) findViewById(R.id.answerText);
 
-        answerText.setText(Predictions.get().getPrediction());
+        answerText.setText("Shake to get a prediction.");
 
         //Used to create the spinning image when the app loads.
-        ImageView img = (ImageView) findViewById(R.id.spin_block);
-        img.setBackgroundResource(R.drawable.crystal_anim);
+        img = (ImageView) findViewById(R.id.spin_block);
+        img.setImageResource(R.drawable.crystal_anim);
 
-        AnimationDrawable imgAnimation = (AnimationDrawable) img.getBackground();
+        imgAnim = (AnimationDrawable) img.getDrawable();
 
-        imgAnimation.start();
+        imgAnim.start();
 
-
-        //Typeface font = Typeface.createFromAsset(getAssets(), "assets/fonts/customFont.ttf");
-        //answerText.setTypeface(font);
+        //Sets custom font
+        Typeface font = Typeface.createFromAsset(getAssets(), "fonts/customFont.ttf");
+        answerText.setTypeface(font);
     }
 
     @Override
